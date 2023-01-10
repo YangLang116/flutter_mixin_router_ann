@@ -1,6 +1,6 @@
 name: flutter_mixin_router_ann
 description: 基于flutter_mixin_router框架，配合flutter_mixin_gen生成代码
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/YangLang116/flutter_mixin_router_ann
 
 environment:

@@ -4,4 +4,4 @@
 
 相关使用请参考：
 
-- [flutter_mixin_router_gen](https://pub.dev/packages/flutter_mixin_router_gen)
+- [flutter_mixin_router](https://pub.dev/packages/flutter_mixin_router)
