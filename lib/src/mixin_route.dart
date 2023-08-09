@@ -5,14 +5,16 @@
 /// representative for page
 class MixinRoute {
   final String tName;
-
   final String path;
+  final bool arg;
 
-  const MixinRoute({required this.tName, required this.path});
+  const MixinRoute({required this.tName, required this.path, this.arg = false});
 }
 
 ///action to intercept route, be used to method, method sign: [MixinRouteInterceptor]
-class MixinInterceptRoute extends MixinRoute {
-  const MixinInterceptRoute({required String tName, required String path})
-      : super(tName: tName, path: path);
+class MixinInterceptRoute {
+  final String tName;
+  final String path;
+
+  const MixinInterceptRoute({required this.tName, required this.path});
 }

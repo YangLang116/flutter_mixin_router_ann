@@ -1,3 +1,6 @@
+## 1.0.2
+* support args
+
 ## 1.0.1
 * update readme
 
